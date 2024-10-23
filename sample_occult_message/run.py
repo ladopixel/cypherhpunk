@@ -3,7 +3,7 @@
 Developed by ladopixel
 We use the Least Significant Bit (LSB) Embedding technique.
 
-When you want to read the hidden message you call the other function 'lsb_extraigo_mensaje_oculto'.
+When you want to read the hidden message you call the other function 'lsb_extract_message_hidden_message'.
 
 '''
 
