@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C Extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+lib/
+lib64/
+include/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Pipenv
+# Ignorar el archivo de lock y virtualenv
+Pipfile.lock
+*.venv/
+# No ignores Pipfile, ya que este es necesario para reproducir el entorno
+
+# Logs y bases de datos temporales
+*.log
+*.sql
+*.sqlite3
+
+# Archivos creados por compiladores Python
+*.pyo
+*.pyd
+*.whl
+
+# Archivos comprimidos
+*.gz
+*.zip
+*.tar
+*.tgz
+*.rar
+*.7z
+
+# Otros archivos ignorables
+*.bak
+*.swp
+*.swo
