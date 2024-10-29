@@ -13,7 +13,7 @@ from PIL import Image
 
 def lsb_extract_message_hidden_message(image_path):
     image = Image.open(image_path)
-    binary_message = ""
+    binary_message = ''
     
     for y in range(image.height):
         for x in range(image.width):
@@ -21,7 +21,7 @@ def lsb_extract_message_hidden_message(image_path):
             for i in range(3):
                 binary_message += str(pixel[i] & 1)
     
-    message = ""
+    message = ''
     
     for i in range(0, len(binary_message), 8):
         byte = binary_message[i:i+8]
